@@ -239,7 +239,7 @@ section{
     .tik{
         font-size: 45px;
         text-align: center;
-        margin-left: -75px;
+        margin-left: auto;
         padding-left: 60px;
     }
     .insta:hover{
