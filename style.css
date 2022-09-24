@@ -219,41 +219,49 @@ section{
         text-align: center;
     }
     .insta{
-        font-size: 60px;
+        font-size: 50px;
         text-align: center;
         margin-left: auto;
         
     }
     .snap{
-        font-size: 60px;
+        font-size: 50px;
         text-align: center;
         margin-left: auto;
         padding-left: 60px;
     }
     .twitter{
-        font-size: 60px;
+        font-size: 50px;
         text-align: center;
         margin-left: auto;
         padding-left: 60px;
     }
     .tik{
-        font-size: 60px;
+        font-size: 50px;
         text-align: center;
         margin-left: auto;
         padding-left: 60px;
     }
     .insta:hover{
-        font-size: 80px;
+        font-size: 65px;
     }
     .snap:hover{
-        font-size: 80px;
+        font-size: 65px;
     }
     .twitter:hover{
-        font-size: 80px;
+        font-size: 65px;
 
     }
     .tik:hover{
-        font-size: 80px;
+        font-size: 65px;
+    }
+    .main h2 span{
+        font-size: 1.5em;
+    }
+    .main h3{
+        font-size: 1.4em;
+
     }
     
 }
+
