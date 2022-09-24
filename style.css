@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Roboto:wght@500;900&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+    
+}
+
+body{
+    background-color: #01191f;
+    
+    background: url(images/1BE587D1-D499-40DB-9CCA-9161F408A4D6.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center top;
+    background: rgb(6,0,108);
+background: linear-gradient(349deg, rgba(6,0,108,0.3533788515406162) 20%, rgba(145,152,229,0.30015756302521013) 100%);
+}
+
+
+header{
+    background-color:#273036 ;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 1500;
+    font-size: 1.8em;
+    font-family: 'Roboto';
+ }
+
+.navigation a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 75px;
+    transition: 0.9s ease;
+    
+}
+
+.navigation a:hover{
+    color: #719199;
+    font-size: 1.3em;
+    transform: scale(1.1);
+    text-shadow: #000 2px;
+}
+
+section{
+    padding: 100px 550px;
+    
+    
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+   
+    
+}
+   .main h2{
+    color: #01191f;
+    font-size: 2em;
+    font-weight: 500;
+    
+   }
+
+   .main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #273036;
+    font-size: 2em;
+    font-weight: 600;
+   }
+
+.main h3{
+    color: #01191f;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+}
+
+.main h4{
+    color: #01191f;
+    font-weight: 300;
+    letter-spacing: 8px;
+    margin-top: 4px;
+}
+
+.arrow{
+    size: 10px;
+    width: 15px;
+    color: #01191f;
+}
+
+.main h1{
+    color: #273036;
+    font-size: 4em;
+    font-weight: 900;
+    margin-top: 70px;
+    margin-left: -1100px;
+    text-decoration: underline;
+}
+
+.main p{
+    color: #01191f;
+    font-size: 1.5em;
+    margin-left: -485px;
+    margin-top: 9px;
+    margin-right: 10px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.insta{
+    color: #01191f;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: -400px;
+    
+    margin-top: 8px;
+    transition: 0.9s ease;
+}
+
+.insta:hover{
+    color: #273036;
+    font-size: 120px;
+    transform: scale(1.1);
+}
+
+.snap{
+   color: #01191f;
+   font-size: 100px;
+   font-weight: 400;
+   margin-left: 100;
+   margin-top: 8px;
+   padding-left: 100px;
+   transition: 0.9s ease;
+
+}
+
+.snap:hover{
+    color: #273036;
+    font-size: 120px;
+    transform: scale(1.1);
+}
+
+.twitter{
+    color: #01191f;
+    font-size: 100px;
+    font-weight: 400;
+    padding-left: 100px;
+    margin-top: 8px;
+    transition: 0.9s ease;
+
+}
+
+.twitter:hover{
+    color: #273036;
+    font-size: 120px;
+    transform: scale(1.1);
+}
+
+.tik{
+    color: #01191f;
+    font-size: 100px;
+    font-weight: 400;
+    padding-left: 100px;
+    margin-top: 8px;
+    transition: 0.9s ease;
+
+}
+
+.tik:hover{
+    color: #273036;
+    font-size: 120px;
+    transform: scale(1.1);
+}
+
