@@ -192,4 +192,68 @@ section{
     font-size: 120px;
     transform: scale(1.1);
 }
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px ;
+    }
 
+    .navigation a{
+        padding-left: 10px;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    h2{
+        font-size: 1em;
+    }
+    .main h1{
+        font-size: 2em;
+        font-weight: 700;
+        margin-left: auto;
+    }
+
+    .main p{
+        font-size: 1.4em;
+        font-weight: 300;
+        margin-left: auto;
+        text-align: center;
+    }
+    .insta{
+        font-size: 60px;
+        text-align: center;
+        margin-left: auto;
+        
+    }
+    .snap{
+        font-size: 60px;
+        text-align: center;
+        margin-left: auto;
+        padding-left: 60px;
+    }
+    .twitter{
+        font-size: 60px;
+        text-align: center;
+        margin-left: auto;
+        padding-left: 60px;
+    }
+    .tik{
+        font-size: 60px;
+        text-align: center;
+        margin-left: auto;
+        padding-left: 60px;
+    }
+    .insta:hover{
+        font-size: 80px;
+    }
+    .snap:hover{
+        font-size: 80px;
+    }
+    .twitter:hover{
+        font-size: 80px;
+
+    }
+    .tik:hover{
+        font-size: 80px;
+    }
+    
+}
